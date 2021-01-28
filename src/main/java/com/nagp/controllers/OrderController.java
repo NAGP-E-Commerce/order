@@ -20,7 +20,7 @@ import io.swagger.annotations.ApiResponses;
 
 @RestController
 @Api(value = "OrderController", produces = MediaType.APPLICATION_JSON_VALUE)
-@RequestMapping(value = "/order")
+@RequestMapping(value = "api/order")
 @Validated
 public class OrderController {
 
